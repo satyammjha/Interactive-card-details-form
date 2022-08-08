@@ -262,7 +262,7 @@ input[type="number"]::-webkit-outer-spin-button {
 /*PhoneCSS*/
 
 @media screen and (max-width: 600px) {
-  body{overflow-x: hidden;}
+  body{overflow-x: hidden;overflow-y: scroll}
   #mainbg {
     background-image: url(./images/bg-main-mobile.png);
     height: 100%;
